@@ -1,0 +1,43 @@
+// src/sass/main.scss
+@import "./material/_mixins.scss";
+@import "./material/_variables.scss";
+@import "./material/_typography.scss";
+@import "./material/_sidebar.scss";
+@import "./material/_toolbar.scss";
+// @import "material-dashboard/misc";
+// @import "material-dashboard/inputs";
+@import "./material/_footer.scss";
+// @import "material-dashboard/cards";
+// @import "material-dashboard/tables";
+// @import "material-dashboard/tabs";
+// @import "material-dashboard/checkboxes";
+// @import "material-dashboard/tooltips";
+@import "./material/_buttons.scss";
+// @import "material-dashboard/alerts";
+// @import "material-dashboard/fixed-plugin";
+// @import "material-dashboard/dropdown";
+
+@import '~vuetify/src/styles/styles.sass';
+
+html,body{
+  overflow: hidden;
+  border-radius: 8px 30px 8px 8px;
+  background: rgba(0, 0, 0, 0);
+}
+button,a {
+  -webkit-app-region: no-drag;
+}
+
+.theme--dark.v-application {
+  background-image: url(/static/images/Lavminmac-macbook-og-imac-reparation-baggrund-cover-1.jpg); 
+  background-size:100% 100%;
+}
+.theme--light.v-application {
+  background-image: url(/static/images/Chroma2.jpg);
+  background-size: 100% 100%;
+}
+.v-application--wrap{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
